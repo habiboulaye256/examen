@@ -1,0 +1,244 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Karla', sans-serif;
+   
+    
+}
+
+.navbar
+{
+    width: 100%;
+    background-color:#07052E;
+    display: inline-block;
+    padding: 15px 0px;
+    position: fixed;
+    
+    margin-bottom: 10px;
+}
+.navbar .max-width
+{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-content: auto;
+}
+.logo a
+{
+    color:white;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Reggae One', cursive;
+
+}
+.logo span
+{
+    color:orangered;
+    font-family: 'Reggae One', cursive;
+
+}
+.menu
+{
+    padding: 10px;
+}
+.menu li
+{
+    display: inline-block;
+    cursor: pointer;
+}
+.menu li a
+{
+    margin-left: 40px;
+    color: white;
+    transition: 1s;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.menu li a:hover
+{
+    color:orangered;
+    border-bottom: 3px solid #760001;
+}
+.sous
+{
+    display: none;
+    position: absolute;
+}
+.menu li:hover .sous
+{
+    display: block;
+}
+.sous li
+{
+    width: 100%;
+text-align: center;
+background-color:#420108;
+border: 1px solid orangered;
+font-weight: bold;
+font-size: 20px;
+color: white;
+}
+.home
+{
+    background: url('pexels-anna8.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 105pc;
+    height: 1200px;
+    padding:25px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.home .max-width
+{
+    color:white;
+    margin: auto 250px;
+    font-size: 90px;
+    font-weight: bold;
+    
+}
+..home .home-content .text-1
+{
+font-size: 40px;
+margin-left: 50px;
+
+
+}
+.para{
+    text-align: justify;
+    margin: 20px 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Cormorant', serif;
+    
+
+}
+.max-1
+{
+    display: flex;
+    background-color: #07052E;
+    color: white;
+    
+}
+.about
+{
+ width: 33.3%;
+ text-align: left;
+ margin-left: 50px;
+ padding-top: 10px;
+}
+#prop
+{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+#prop:hover
+{
+    border-bottom: 2px solid white;
+}
+.vi
+{
+    margin-bottom: 10pc;
+}
+#vid
+{
+    margin-left: 2pc;
+    object-fit: cover;
+    width: 30%;
+}
+.off
+{
+    width:35% ;
+    text-align: center;
+    padding-top: 10px;
+}
+.cont
+{
+    width: 30%;
+    text-align: left;
+    margin-left: 15pc;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.cont p
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.off input
+{
+    padding-bottom: 20px;
+    border: 2px solid black;
+    width: 90%;
+    margin-left: 7pc;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.off .icon-envelope-alt
+{
+    color: chocolate;
+    font-size: 30px;
+    margin-right: 5pc;
+    padding-top: 20px;
+}
+.input-group-addon
+{
+    
+    font-size: 30px;
+    color: orangered;
+    margin-right: 7pc;
+}
+
+#inf
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 6.8pc;
+    display: flex;
+}
+.ico a i
+{
+    margin-left: 2px;
+    font-size: 25px;
+    color: black;
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    float: left;
+    transition: all 0.3s ease-out;
+    background: #fff;
+    margin: 0 4px;
+    line-height: 35px;
+    
+}
+.ico a i:hover
+{
+    
+    background: #4267b2;
+}
+.ico span a i:hover
+{
+    background:green;
+    
+}
+#env
+{
+    font-size: 25px;
+    border: 2px solid;
+    border-radius: 20px 20px;
+    width: 28%;
+    margin-left: 7pc;
+    color:black;
+    background-color: chocolate;
+}

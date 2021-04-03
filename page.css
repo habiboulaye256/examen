@@ -1,0 +1,752 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Karla', sans-serif;
+   
+    
+}
+
+.navbar
+{
+    width: 100%;
+    background-color: #07052E;
+    display: inline-block;
+    padding: 15px 0px;
+    position: fixed;
+    
+    margin-bottom: 10px;
+}
+.navbar .max-width
+{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-content: auto;
+}
+.logo a
+{
+    color:white;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Reggae One', cursive;
+
+}
+.logo span
+{
+    color:orangered;
+    font-family: 'Reggae One', cursive;
+
+}
+.menu
+{
+    padding: 10px;
+}
+.menu li
+{
+    display: inline-block;
+    cursor: pointer;
+}
+.menu li a
+{
+    margin-left: 40px;
+    color: white;
+    transition: 1s;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.menu li a:hover
+{
+    color:orangered;
+    border-bottom: 3px solid #760001;
+}
+.home
+{
+    background: url('mathieu-renier-4WBvCqeMaDE-unsplash.jpg');
+    background-size: 105pc;
+    background-repeat: no-repeat;
+    height: 1200px;
+    padding:25px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+}
+.home .max-width
+{
+    color:white;
+    margin: auto 20pc;
+    font-size: 90px;
+    font-weight: bold;
+    
+}
+.home .home-content .text-1
+{
+
+margin-left: 50px;
+
+
+}
+.nvb
+{
+    margin-bottom: 40px;
+}
+.voitu
+{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-1
+{
+    width: 30%;
+    height: 220px;  
+    background-image: url('pexels-photo-116675.jpeg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+    background-size: 22em;
+}
+.child-2
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+#gui
+{
+    color: blue;
+    font-size: 18px;
+    
+}
+#prix
+{
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+.ref
+{
+    font-size: 16px;
+    
+}
+.voitue-2
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-3
+{
+    width: 30%;
+    height: 220px; 
+    background-size: 22em; 
+    background-image: url('photo-1584191088610-f74145e82ac5.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+
+.child-4
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-3
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-5
+{
+    width: 30%;
+    height: 220px;  
+    background-size: 22em;
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-6
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-4
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-7
+{
+    width: 30%;
+    height: 220px;  
+    background-size: 22em;
+    background-image: url('pexels-photo-244206.jpeg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-8
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-5
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-9
+{
+    width: 30%;
+    height: 180px;  
+    background-size: 22em;
+    background-image: url('téléchargement (1).jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-10
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-6
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-11
+{
+    width: 30%;
+    height: 180px;  
+    background-size: 22em;
+    background-image: url('images (5).jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-12
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-7
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-13
+{
+    width: 30%;
+    height: 180px;
+    background-size: 22em;  
+    background-image: url('téléchargement (5).jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-14
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-8
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-15
+{
+    width: 30%;
+    height: 180px;
+    background-size: 22em;  
+    background-image: url('téléchargement (4).jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-16
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-9
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-17
+{
+    width: 30%;
+    height: 180px;
+    background-size: 22em;  
+    background-image: url('téléchargement (5).jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-18
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-10
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-19
+{
+    width: 30%;
+    height: 180px;
+    background-size: 22em;  
+    background-image: url('images (1).jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-20
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-11
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-21
+{
+    width: 30%;
+    height: 180px;
+    background-size: 22em;  
+    background-image: url('Prado Xl.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-22
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-12
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-23
+{
+    width: 30%;
+    height: 180px;
+    background-size: 22em;  
+    background-image: url('Toyota LAnd.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-24
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-13
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-25
+{
+    width: 30%;
+    height: 180px;
+    background-size: 22em;  
+    background-image: url('RAV4.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-26
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-14
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.child-27
+{
+    width: 30%;
+    height: 180px;
+    background-size: 22em;  
+    background-image: url('Nissan juke (4).jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.child-28
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.voitue-15
+{
+    width: 100%;
+    margin-bottom: 20pc;
+    margin-left: 20px;
+    display: flex;
+    
+
+}
+.child-29
+{
+    width: 30%;
+    height: 180px;
+    background-size: 22em;  
+    background-image: url('prado v8.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 30px;
+}
+
+.child-30
+{
+    color:black;
+    width: 50%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.sous
+{
+    display: none;
+    position: absolute;
+    
+}
+.menu li:hover .sous
+{
+    display: block;
+}
+.sous li
+{
+    width: 100%;
+    text-align: center;
+    background-color:#420108;
+    border: 1px solid orangered;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+
+}
+#art
+{
+    display: none;
+    position: absolute;
+}
+.max-1
+{
+    display: flex;
+    background-color: #07052E;
+    color: white;
+    
+}
+.about
+{
+ width: 35%;
+ text-align: left;
+ margin-left: 50px;
+ padding-top: 10px;
+}
+.off
+{
+    width:35% ;
+    text-align: center;
+    padding-top: 10px;
+
+    
+}
+.cont
+{
+    width: 30%;
+    text-align: left;
+    margin-left: 15pc;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.cont p
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+.off input
+{
+    padding-bottom: 20px;
+    border: 2px solid black;
+    width: 90%;
+    margin-left: 8.5pc;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    
+}
+#inf
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 8.3pc;
+    display: flex;
+}
+.ico a i
+{
+    margin-left: 2px;
+    font-size: 25px;
+    color: black;
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    float: left;
+    transition: all 0.3s ease-out;
+    background: #fff;
+    margin: 0 4px;
+    line-height: 35px;
+    
+}
+
+
+.ico a i:hover
+{
+    background: blue;
+}
+.ico span a i:hover
+{
+    background:green;
+}
+
+
+.off .icon-envelope-alt
+{
+    color: chocolate;
+    font-size: 30px;
+    margin-right: 7pc;
+    padding-top: 20px;
+    
+}
+#prop
+{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+    
+
+}
+#prop:hover
+{
+    border-bottom: 2px solid white;
+}
+.menu-1
+{
+    display:none ;
+    position: absolute;
+}
+ .icon-phone:hover .menu-1 
+{
+    display: block;
+}
+.menu-1 li
+{
+    width: 100%;
+text-align: center;
+background-color:#941510;
+border: 1px solid black;
+font-weight: bold;
+font-size: 20px;
+color: white;
+}
+.input-group-addon
+{
+    
+    font-size: 30px;
+    color: orangered;
+    margin-right: 7pc;
+
+}
+#env
+{
+    font-size: 25px;
+    border: 2px solid;
+    border-radius: 20px 20px;
+    width: 28%;
+    margin-left: 8.5pc;
+    color:black;
+    background-color: chocolate;
+}
+.icon a i
+{
+    
+    font-size: 25px;
+    color: black;
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    float: left;
+    transition: all 0.3s ease-out;
+    background: chocolate;
+    line-height: 35px;
+    text-align: center;
+    display: inline;
+    margin-right: 40px;
+    color: white;
+    
+    
+}
+.icon span a i{
+    background: blue;
+}
+.icon span a i:hover
+{
+    
+    background: #4267b2;
+}
+.icon a i:hover
+{
+    background: green;
+
+}
+.icon .icon-phone
+{
+    
+    margin-left: 24pc;
+    font-size: 30px;
+}
+.icon-envelope-alt
+{
+    
+    font-size: 30px;
+    margin-left: 5px;
+}
+.icon-twitter-sign
+{
+    font-size: 30px;
+    margin-left: 5px;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
